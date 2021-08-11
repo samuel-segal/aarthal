@@ -1,137 +1,53 @@
-
-/*
-$black          #202124            
-$red            #E06C75
-$red_light      #ff071b 
-$green          #98C379               
-$yellow         #D19A66              
-$blue           #61AFEF
-$blue_light     #0C8FFB               
-$magenta        #C678DD              
-$cyan           #56B6C2              
-$white          #e8eaed       
-$bright_white   #FFFFFF                      
-$selection      #3A3F4B                
-$bg             #1E2127        
-*/
-
+:root {
+    background: #000;
+    color: #fff;
+}
 body {
-    color: #e8eaed;
-    font-family: 'Georama', 'serif';
-    font-size: 14px;
-    background-color: #fff;
-    height: 1000px;
-    margin: 0 0;
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,"Segoe UI",Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";;
 }
 
-h1 {
-    margin-bottom: 0.1em;
-    font-size: 60px;
-}
-
-a {
-    transition: color 0.7s ease;
-    color: #ff071b;
-    font-weight: bold;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-a:hover {
-    color: #0C8FFB;
-}
-
-.header-wrapper {
-    background: rgba(0, 0, 0, 0.92);
-    font-size: 0.986em;
-    box-sizing: border-box;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    align-items: center;
-    display: flex;
-    position: fixed;
-    z-index: 9999;
-    width: 100%;
-    height: 40px;
-    top: 0;
-    left: 0;
-}
-
-.header-menu {
-    cursor: default;
-    margin: 0 auto;
+.main-body {
+    margin: 0 5.23154rem;
     width: auto;
-    height: 44px;
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
 }
 
-.header-menu-link {
-    box-sizing: border-box;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    padding: 0.986em;
+.header-wrapper-title {
+    margin: 3rem 3.673rem;
+    font-size:1.785em;
+    margin-bottom: -1.7rem;
 }
 
-.header-menu-link, a {
-    color: rgba(255, 255, 255, 0.708);
-    font-weight: 300;
-    margin:0 0.35em;
-}
-
-.header-menu-link, a:hover {
-    color: rgba(255, 255, 255, 1);
-}
-
-.cont-body a {
-    transition: color 0.7s ease;
-    color: #ff071b;
+#logo_aarthal {
     font-weight: bold;
+}
+
+.header-wrapper-menu {
+    display:flex;
+    justify-content:end;
+}
+
+.header-wrapper-menu a {
     text-decoration: none;
-    font-weight: 600;
-    margin: 0 0;
+    color:rgb(255, 255, 255, 0.63);
+    transition: color 0.5s ease;
 }
 
-.cont-body a:hover {
-    color: #0C8FFB;
+.header-wrapper-menu a:hover {
+    color:rgb(255, 255, 255, 1);
 }
 
-
-.cat-content-dark {
-    background-color: #202124;
-    color:#e8eaed;
-    height: 750px;
-    margin: 10px 0;
-    margin-top: 0;
+.menu-contribute, .menu-aboutus, .menu-discover {
+    padding: 0 10px;
 }
 
-.cat-content-light {
-    background-color:#fff;
-    color:#202124;
-    height: 750px;
-    margin: 10px 0;
-    margin-top: 0;
-}
-
-.cat-content-light p {
-    color: #202124;
-}
-
-.welcomer {
-    padding-top:2.73642em;
+.welcome {
     text-align: center;
-    font-size: 2.575rem;
-    font-weight: 500;
+    padding: 180px 0;
+    font-weight:  600;
+    font-size: 2.375em;
 }
 
-#welcome_header, p {
-    margin-bottom:-15px;
-}
-
-.welcomer-comment p {
-    font-size: 1.532rem;
-    font-weight: 400;
-    padding-top: -20px;
+.welcome-desc {
+    font-size:0.575em;
+    font-weight: 400;;
 }
