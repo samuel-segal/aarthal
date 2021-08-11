@@ -49,5 +49,31 @@ body {
 
 .welcome-desc {
     font-size:0.575em;
-    font-weight: 400;;
+    font-weight: 400;
+}
+
+.card-grid {
+}
+
+.card-grid-column-fir  {
+}
+
+.card-fir-l {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    float: left;
+    height: 500px;
+    padding: 0 50px;
+}
+
+.card-fir-r {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    float: right;
+    height: 500px;
+    padding: 0 50px;
 }
