@@ -1,5 +1,5 @@
 :root {
-    background: #000;
+    background: #121212;
     color: #fff;
 }
 body {
@@ -9,6 +9,7 @@ body {
 .main-body {
     margin: 0 5.23154rem;
     width: auto;
+    height: 1500px;
 }
 
 .header-wrapper-title {
@@ -58,22 +59,39 @@ body {
 .card-grid-column-fir  {
 }
 
-.card-fir-l {
-    background-color: blue;
+.card-l {
+    background-color: #121212;
     display: flex;
     justify-content: center;
-    width: 40%;
+    width: 28%;
     float: left;
     height: 500px;
-    padding: 0 50px;
+    padding: 0 80px;
+    margin:45px 45px;
+    border-radius: 16px;
+    box-shadow: 1rem 0 3rem #000;
 }
 
-.card-fir-r {
-    background-color: red;
+.card-r {
+    background-color: #eee;
     display: flex;
     justify-content: center;
-    width: 40%;
+    width: 28%;
     float: right;
     height: 500px;
-    padding: 0 50px;
+    padding: 0 80px;
+    margin:45px 45px;
+    border-radius: 16px;
+    box-shadow: 1rem 0 3rem #000;
+}
+
+.card-cen {
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    padding: 0 100px;
+    margin:0 45px;
+    border-radius: 16px;
+    box-shadow: 1rem 0 3rem #000;
 }
