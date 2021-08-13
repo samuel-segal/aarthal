@@ -112,6 +112,7 @@ body {
         justify-content:center;
         margin: 0 -3rem;
         padding-top: 2.428rem;
+        font-size:2.5vw;
     }
 
     .welcomer-main {
@@ -147,5 +148,8 @@ body {
         display: flex;
         justify-content: center;
     }
-    
+}
+
+@media only screen and (max-width: 375px) {
+
 }
