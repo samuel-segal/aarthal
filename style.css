@@ -15,6 +15,7 @@ body {
   font-size: 1em;
   padding: 0;
   margin: 0;
+  line-height: 1.3;
 }
 
 a {
@@ -36,7 +37,7 @@ a:hover {
 
 .header-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #header_menu {
@@ -73,6 +74,7 @@ a:hover {
 .greeter {
   text-align: center;
   margin-top: 150px;
+  letter-spacing: .08em;
 }
 
 #greeter_welcome {
@@ -99,7 +101,7 @@ a:hover {
   height: 350px;
   width: 400px;
   min-width: 250px;
-  padding: 1.5rem;
+  padding: 2rem;
   border-radius: 16px;
   background: #101010;
   box-shadow: -1rem 0 3rem #000;
@@ -113,7 +115,7 @@ a:hover {
 }
 
 .cat-card:hover {
-  transform: translateY(-1rem);
+  transform: translateY(-2rem);
 }
 
 .cat-card:hover~.cat-card {
@@ -122,4 +124,16 @@ a:hover {
 
 .cat-card:not(:first-child) {
   margin-left: -130px;
+}
+
+.cat-card h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-left: 1.2rem;
+  padding-bottom: 1.8rem;
+}
+
+.cat-card p {
+  font-weight: 500;
+  padding-left: 1.2rem;
 }
