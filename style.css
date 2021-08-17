@@ -1,4 +1,6 @@
 
+/* ##MAIN ELEMENTS## */
+
 :root {
   background-color: #101010;
   color: #fff;
@@ -11,13 +13,26 @@ html {
 
 body {
   font-size: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #09acde;
+  transition: color .2s ease;
+}
+
+a:hover {
+  color: #09de52;
 }
 
 .main-container {
-  max-width: 1080px;
-  width: 100%;
-  margin: 0 auto;
 }
+
+/* ##MAIN ELEMENTS ENDS HERE## */
+
+/* ##TOP HEADER HERE## */
 
 .header-wrapper {
   display: flex;
@@ -49,4 +64,62 @@ body {
 .logo {
   margin: 0 15px;
   margin-top: 30px;
+}
+
+/* ##TOP HEADER ENDS HERE## */
+
+/* MAIN BODY STARTS HERE */
+
+.greeter {
+  text-align: center;
+  margin-top: 150px;
+}
+
+#greeter_welcome {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: -17px;
+}
+
+#greeter_sub {
+  font-size: 1.2rem;
+}
+
+/* #### */
+
+.cat-container {
+  margin:200px 0;
+  display: flex;
+  position: relative;
+  padding: 3rem;
+  overflow: hidden;
+}
+
+.cat-card {
+  height: 350px;
+  width: 400px;
+  min-width: 250px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: #101010;
+  box-shadow: -1rem 0 3rem #000;
+  display: flex;
+  flex-direction: column;
+  transition: .2s;
+  margin: 0;
+  scroll-snap-align: start;
+  clear: both;
+  position: relative;
+}
+
+.cat-card:hover {
+  transform: translateY(-1rem);
+}
+
+.cat-card:hover~.cat-card {
+  transform: translateX(130px);
+}
+
+.cat-card:not(:first-child) {
+  margin-left: -130px;
 }
