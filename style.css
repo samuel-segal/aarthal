@@ -39,6 +39,11 @@ a:hover {
 .header-wrapper {
   display: flex;
   justify-content: space-around;
+  z-index: 1;
+  top: 0;
+  background-color: rgba(16,16,16,0.8);
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 #header_menu {
